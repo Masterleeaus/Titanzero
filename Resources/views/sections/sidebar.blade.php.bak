@@ -1,0 +1,22 @@
+{{-- Titan Assist Sidebar --}}
+@php
+    $user = auth()->user();
+    $roles = function_exists('user_roles') ? user_roles() : [];
+    $modules = function_exists('user_modules') ? user_modules() : [];
+
+    // Fix alias: TitanAssist module alias is "titanassist", not "aiassistant"
+    $hasModule = $user && (empty($modules) || in_array('titanassist', $modules));
+
+    // Only show to allowed roles (example: admin)
+    $canSeeTitanAssist = $hasModule && in_array('admin', $roles);
+@endphp
+
+@if($canSeeTitanAssist)
+    <li class="nav-item">
+        <a class="nav-link {{ request()->routeIs('titan-assist.*') ? 'active' : '' }}"
+           href="{{ route('titan-assist.index') }}">
+            <i class="fa fa-magic nav-icon"></i>
+            <p>{{ __('Titan Assist') }}</p>
+        </a>
+    </li>
+@endif

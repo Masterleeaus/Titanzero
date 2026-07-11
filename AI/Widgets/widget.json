@@ -1,0 +1,10 @@
+{
+  "name": "Generic Widget",
+  "description": "A generic AI widget for TitanZero.",
+  "version": "1.0.0",
+  "type": "widget",
+  "capabilities": [],
+  "dependencies": [],
+  "permissions": [],
+  "compatibility": "TitanZero V1.9+"
+}

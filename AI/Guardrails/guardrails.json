@@ -1,0 +1,19 @@
+{
+  "schema": "titan.guardrails.v1",
+  "module": "TitanZero",
+  "blocked_terms": [
+    "ignore previous instructions",
+    "forget your instructions",
+    "you are now",
+    "act as if",
+    "jailbreak",
+    "bypass safety"
+  ],
+  "case_sensitive": false,
+  "input_screening": true,
+  "output_screening": true,
+  "handler_class": null,
+  "tenant_scoped": true,
+  "require_permission_checks": true,
+  "log_agent_actions": true
+}

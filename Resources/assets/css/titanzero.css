@@ -1,0 +1,19 @@
+#titanzero-bubble-root{position:fixed;right:22px;bottom:22px;z-index:99999;font-family:inherit}
+#tz-bubble-btn{width:56px;height:56px;border-radius:28px;border:0;cursor:pointer;box-shadow:0 8px 24px rgba(0,0,0,.25);background:#111;color:#fff}
+#tz-bubble-btn .tz-bubble-icon{font-size:20px;line-height:56px}
+.tz-panel{position:fixed;right:22px;bottom:90px;width:360px;max-width:calc(100vw - 44px);max-height:70vh;background:#fff;border-radius:14px;box-shadow:0 14px 38px rgba(0,0,0,.25);overflow:hidden;display:none}
+.tz-panel.is-open{display:block}
+.tz-panel-header{display:flex;align-items:center;justify-content:space-between;padding:12px 12px;border-bottom:1px solid rgba(0,0,0,.08)}
+.tz-panel-body{padding:12px;overflow:auto;max-height:52vh}
+.tz-panel-footer{display:flex;gap:8px;padding:12px;border-top:1px solid rgba(0,0,0,.08)}
+.tz-btn{flex:1;border:1px solid rgba(0,0,0,.12);background:#f7f7f7;border-radius:10px;padding:10px;cursor:pointer}
+.tz-card{border:1px solid rgba(0,0,0,.08);border-radius:12px;padding:10px;margin-bottom:10px}
+.tz-card-title{font-weight:600;margin-bottom:6px}
+.tz-pre{white-space:pre-wrap;font-size:12px;background:#fafafa;border:1px solid rgba(0,0,0,.06);padding:8px;border-radius:10px}
+.tz-results{font-size:13px;line-height:1.35;}
+.tz-result-card{border:1px solid rgba(0,0,0,.08);border-radius:10px;padding:10px;margin:8px 0;background:#fff;}
+.tz-result-title{font-weight:700;margin-bottom:6px;}
+.tz-result-body{white-space:pre-wrap;}
+.tz-result-list{padding-left:18px;}
+
+.tz-citation-list{list-style:none;padding-left:0;margin:0}.tz-citation{padding:10px;border-top:1px solid rgba(0,0,0,.08)}.tz-citation:first-child{border-top:0}

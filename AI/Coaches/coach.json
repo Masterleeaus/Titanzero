@@ -1,0 +1,10 @@
+{
+  "name": "Generic Coach",
+  "description": "A generic AI coach for TitanZero.",
+  "version": "1.0.0",
+  "type": "coach",
+  "capabilities": [],
+  "dependencies": [],
+  "permissions": [],
+  "compatibility": "TitanZero V1.9+"
+}

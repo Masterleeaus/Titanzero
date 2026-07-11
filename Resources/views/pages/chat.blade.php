@@ -1,0 +1,13 @@
+@extends('layouts.app')
+
+@section('content')
+<div class="container py-3">
+    <h4 class="mb-3">{{ __('Titan Zero Chat') }}</h4>
+
+    <div class="card">
+        <div class="card-body">
+            <p class="text-muted mb-0">{{ __('Chat UI placeholder. Wire Titan Core chat here.') }}</p>
+        </div>
+    </div>
+</div>
+@endsection

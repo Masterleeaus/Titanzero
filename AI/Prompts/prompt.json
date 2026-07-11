@@ -1,0 +1,10 @@
+{
+  "name": "Generic Prompt",
+  "description": "A generic AI prompt for TitanZero.",
+  "version": "1.0.0",
+  "type": "prompt",
+  "capabilities": [],
+  "dependencies": [],
+  "permissions": [],
+  "compatibility": "TitanZero V1.9+"
+}
