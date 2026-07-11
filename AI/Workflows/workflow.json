@@ -1,0 +1,10 @@
+{
+  "name": "Generic Workflow",
+  "description": "A generic AI workflow for TitanZero.",
+  "version": "1.0.0",
+  "type": "workflow",
+  "capabilities": [],
+  "dependencies": [],
+  "permissions": [],
+  "compatibility": "TitanZero V1.9+"
+}

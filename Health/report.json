@@ -1,0 +1,202 @@
+{
+    "name": "TitanZero",
+    "studlyName": "TitanZero",
+    "path": "/home/saassmar/domains/titanzero.pro/public_html/Modules/TitanZero",
+    "enabled": true,
+    "namespace": "Modules\\TitanZero\\",
+    "panels": [
+        "*"
+    ],
+    "dependencies": [],
+    "optionalDependencies": [],
+    "priority": 10,
+    "manifestPath": "/home/saassmar/domains/titanzero.pro/public_html/Modules/TitanZero/module.manifest.json",
+    "manifestFiles": [
+        "/home/saassmar/domains/titanzero.pro/public_html/Modules/TitanZero/module.manifest.json"
+    ],
+    "plugins": [
+        "Modules\\TitanZero\\Filament\\Plugin\\TitanZeroPlugin"
+    ],
+    "resources": [
+        "Modules\\TitanZero\\Filament\\Resources\\TitanZeroAiCallResource",
+        "Modules\\TitanZero\\Filament\\Resources\\TitanZeroAiCallResource\\Pages\\ListTitanZeroAiCalls",
+        "Modules\\TitanZero\\Filament\\Resources\\TitanZeroAiCallResource\\Pages\\ViewTitanZeroAiCall",
+        "Modules\\TitanZero\\Resources\\lang\\ar\\auth",
+        "Modules\\TitanZero\\Resources\\lang\\ar\\installer_messages",
+        "Modules\\TitanZero\\Resources\\lang\\ar\\pagination",
+        "Modules\\TitanZero\\Resources\\lang\\ar\\passwords",
+        "Modules\\TitanZero\\Resources\\lang\\ar\\validation",
+        "Modules\\TitanZero\\Resources\\lang\\da\\auth",
+        "Modules\\TitanZero\\Resources\\lang\\da\\installer_messages",
+        "Modules\\TitanZero\\Resources\\lang\\da\\pagination",
+        "Modules\\TitanZero\\Resources\\lang\\da\\passwords",
+        "Modules\\TitanZero\\Resources\\lang\\da\\validation",
+        "Modules\\TitanZero\\Resources\\lang\\de\\auth",
+        "Modules\\TitanZero\\Resources\\lang\\de\\installer_messages",
+        "Modules\\TitanZero\\Resources\\lang\\de\\pagination",
+        "Modules\\TitanZero\\Resources\\lang\\de\\passwords",
+        "Modules\\TitanZero\\Resources\\lang\\de\\validation",
+        "Modules\\TitanZero\\Resources\\lang\\en\\app",
+        "Modules\\TitanZero\\Resources\\lang\\en\\auth",
+        "Modules\\TitanZero\\Resources\\lang\\en\\installer_messages",
+        "Modules\\TitanZero\\Resources\\lang\\en\\library",
+        "Modules\\TitanZero\\Resources\\lang\\en\\pagination",
+        "Modules\\TitanZero\\Resources\\lang\\en\\passwords",
+        "Modules\\TitanZero\\Resources\\lang\\en\\validation",
+        "Modules\\TitanZero\\Resources\\lang\\es\\auth",
+        "Modules\\TitanZero\\Resources\\lang\\es\\installer_messages",
+        "Modules\\TitanZero\\Resources\\lang\\es\\pagination",
+        "Modules\\TitanZero\\Resources\\lang\\es\\passwords",
+        "Modules\\TitanZero\\Resources\\lang\\es\\validation",
+        "Modules\\TitanZero\\Resources\\lang\\fr\\auth",
+        "Modules\\TitanZero\\Resources\\lang\\fr\\installer_messages",
+        "Modules\\TitanZero\\Resources\\lang\\fr\\pagination",
+        "Modules\\TitanZero\\Resources\\lang\\fr\\passwords",
+        "Modules\\TitanZero\\Resources\\lang\\fr\\validation",
+        "Modules\\TitanZero\\Resources\\lang\\it\\auth",
+        "Modules\\TitanZero\\Resources\\lang\\it\\installer_messages",
+        "Modules\\TitanZero\\Resources\\lang\\it\\pagination",
+        "Modules\\TitanZero\\Resources\\lang\\it\\passwords",
+        "Modules\\TitanZero\\Resources\\lang\\it\\validation",
+        "Modules\\TitanZero\\Resources\\lang\\ja\\auth",
+        "Modules\\TitanZero\\Resources\\lang\\ja\\installer_messages",
+        "Modules\\TitanZero\\Resources\\lang\\ja\\pagination",
+        "Modules\\TitanZero\\Resources\\lang\\ja\\passwords",
+        "Modules\\TitanZero\\Resources\\lang\\ja\\validation",
+        "Modules\\TitanZero\\Resources\\lang\\nl\\auth",
+        "Modules\\TitanZero\\Resources\\lang\\nl\\installer_messages",
+        "Modules\\TitanZero\\Resources\\lang\\nl\\pagination",
+        "Modules\\TitanZero\\Resources\\lang\\nl\\passwords",
+        "Modules\\TitanZero\\Resources\\lang\\nl\\validation",
+        "Modules\\TitanZero\\Resources\\lang\\pl\\auth",
+        "Modules\\TitanZero\\Resources\\lang\\pl\\installer_messages",
+        "Modules\\TitanZero\\Resources\\lang\\pl\\pagination",
+        "Modules\\TitanZero\\Resources\\lang\\pl\\passwords",
+        "Modules\\TitanZero\\Resources\\lang\\pl\\validation",
+        "Modules\\TitanZero\\Resources\\lang\\pt\\auth",
+        "Modules\\TitanZero\\Resources\\lang\\pt\\installer_messages",
+        "Modules\\TitanZero\\Resources\\lang\\pt\\pagination",
+        "Modules\\TitanZero\\Resources\\lang\\pt\\passwords",
+        "Modules\\TitanZero\\Resources\\lang\\pt\\validation",
+        "Modules\\TitanZero\\Resources\\lang\\ru\\auth",
+        "Modules\\TitanZero\\Resources\\lang\\ru\\installer_messages",
+        "Modules\\TitanZero\\Resources\\lang\\ru\\pagination",
+        "Modules\\TitanZero\\Resources\\lang\\ru\\passwords",
+        "Modules\\TitanZero\\Resources\\lang\\ru\\validation",
+        "Modules\\TitanZero\\Resources\\lang\\tr\\auth",
+        "Modules\\TitanZero\\Resources\\lang\\tr\\installer_messages",
+        "Modules\\TitanZero\\Resources\\lang\\tr\\pagination",
+        "Modules\\TitanZero\\Resources\\lang\\tr\\passwords",
+        "Modules\\TitanZero\\Resources\\lang\\tr\\validation"
+    ],
+    "pages": [
+        "Modules\\TitanZero\\Filament\\Pages\\TitanZeroChatPage"
+    ],
+    "widgets": [
+        "Modules\\TitanZero\\Filament\\Widgets\\TitanZeroEmbedWidget"
+    ],
+    "clusters": [],
+    "providers": [
+        "Modules\\TitanZero\\Providers\\EventServiceProvider",
+        "Modules\\TitanZero\\Providers\\RouteServiceProvider",
+        "Modules\\TitanZero\\Providers\\TitanZeroServiceProvider"
+    ],
+    "migrations": [
+        "/home/saassmar/domains/titanzero.pro/public_html/Modules/TitanZero/Database/Migrations/2023_06_15_050547_create_assistant_templates_table.php",
+        "/home/saassmar/domains/titanzero.pro/public_html/Modules/TitanZero/Database/Migrations/2025_01_01_000000_create_titan_assist_usages_table.php",
+        "/home/saassmar/domains/titanzero.pro/public_html/Modules/TitanZero/Database/Migrations/2025_12_06_100000_register_titan_assist_module.php",
+        "/home/saassmar/domains/titanzero.pro/public_html/Modules/TitanZero/Database/Migrations/2025_12_28_030608_000001_create_titanzero_documents_table.php",
+        "/home/saassmar/domains/titanzero.pro/public_html/Modules/TitanZero/Database/Migrations/2025_12_28_030608_000002_create_titanzero_document_chunks_table.php",
+        "/home/saassmar/domains/titanzero.pro/public_html/Modules/TitanZero/Database/Migrations/2025_12_28_030608_000003_create_titanzero_imports_table.php",
+        "/home/saassmar/domains/titanzero.pro/public_html/Modules/TitanZero/Database/Migrations/2025_12_28_035947_000010_create_titanzero_audit_logs_table.php",
+        "/home/saassmar/domains/titanzero.pro/public_html/Modules/TitanZero/Database/Migrations/2025_12_28_050646_000020_create_titanzero_coaches_table.php",
+        "/home/saassmar/domains/titanzero.pro/public_html/Modules/TitanZero/Database/Migrations/2025_12_28_050646_000021_create_titanzero_document_tags_table.php",
+        "/home/saassmar/domains/titanzero.pro/public_html/Modules/TitanZero/Database/Migrations/2025_12_28_050646_000022_create_titanzero_document_tag_pivot_table.php",
+        "/home/saassmar/domains/titanzero.pro/public_html/Modules/TitanZero/Database/Migrations/2025_12_28_050646_000023_add_metadata_to_titanzero_documents_table.php",
+        "/home/saassmar/domains/titanzero.pro/public_html/Modules/TitanZero/Database/Migrations/2025_12_28_054429_000030_add_classification_review_fields_to_titanzero_documents.php",
+        "/home/saassmar/domains/titanzero.pro/public_html/Modules/TitanZero/Database/Migrations/2025_12_28_095440_000040_create_titanzero_intents_audit_artifacts.php",
+        "/home/saassmar/domains/titanzero.pro/public_html/Modules/TitanZero/Database/Migrations/2025_12_29_105607_999999_titanzero_intent_tables_guard_hotfix.php",
+        "/home/saassmar/domains/titanzero.pro/public_html/Modules/TitanZero/Database/Migrations/2026_02_02_000001_register_titanzero_menus.php",
+        "/home/saassmar/domains/titanzero.pro/public_html/Modules/TitanZero/Database/Migrations/2026_02_02_000100_register_titanzero_sidebar_menus.php",
+        "/home/saassmar/domains/titanzero.pro/public_html/Modules/TitanZero/Database/Migrations/2026_02_03_090000_create_titanzero_channels_table.php",
+        "/home/saassmar/domains/titanzero.pro/public_html/Modules/TitanZero/Database/Migrations/2026_03_02_090300_add_company_id_to_titanzero_tables.php",
+        "/home/saassmar/domains/titanzero.pro/public_html/Modules/TitanZero/Database/Migrations/2026_04_10_400001_create_titanzero_job_access_notes_table.php",
+        "/home/saassmar/domains/titanzero.pro/public_html/Modules/TitanZero/Database/Migrations/2026_04_10_400002_create_titanzero_job_access_audit_table.php",
+        "/home/saassmar/domains/titanzero.pro/public_html/Modules/TitanZero/Database/Migrations/2026_04_10_500001_register_titan_zero_subscription_feature.php",
+        "/home/saassmar/domains/titanzero.pro/public_html/Modules/TitanZero/Database/Migrations/2026_04_11_600001_create_titanzero_ai_chat_categories_table.php",
+        "/home/saassmar/domains/titanzero.pro/public_html/Modules/TitanZero/Database/Migrations/2026_04_11_600002_create_titanzero_ai_chat_sessions_table.php",
+        "/home/saassmar/domains/titanzero.pro/public_html/Modules/TitanZero/Database/Migrations/2026_04_11_600003_create_titanzero_ai_chat_messages_table.php",
+        "/home/saassmar/domains/titanzero.pro/public_html/Modules/TitanZero/Database/Migrations/2026_04_11_600004_seed_titanzero_ai_chat_categories.php",
+        "/home/saassmar/domains/titanzero.pro/public_html/Modules/TitanZero/Database/Migrations/2026_04_11_700001_add_website_url_to_titanzero_ai_chat_sessions.php",
+        "/home/saassmar/domains/titanzero.pro/public_html/Modules/TitanZero/Database/Migrations/2026_04_11_700002_create_titanzero_web_chat_embeddings_table.php",
+        "/home/saassmar/domains/titanzero.pro/public_html/Modules/TitanZero/Database/Migrations/2026_04_11_700003_seed_titanzero_ai_web_chat_category.php",
+        "/home/saassmar/domains/titanzero.pro/public_html/Modules/TitanZero/Database/Migrations/2026_04_12_800001_create_user_tiptap_contents_table.php",
+        "/home/saassmar/domains/titanzero.pro/public_html/Modules/TitanZero/Database/Migrations/2026_04_12_900001_add_file_chat_columns_to_titanzero_ai_chat_sessions.php",
+        "/home/saassmar/domains/titanzero.pro/public_html/Modules/TitanZero/Database/Migrations/2026_04_23_100001_create_company_ai_keys_table.php",
+        "/home/saassmar/domains/titanzero.pro/public_html/Modules/TitanZero/Database/Migrations/2026_04_23_100002_create_titanzero_ai_calls_table.php",
+        "/home/saassmar/domains/titanzero.pro/public_html/Modules/TitanZero/Database/Migrations/2026_04_23_100003_create_company_ai_rate_limits_table.php"
+    ],
+    "views": [
+        "/home/saassmar/domains/titanzero.pro/public_html/Modules/TitanZero/Resources/views"
+    ],
+    "translations": [
+        "/home/saassmar/domains/titanzero.pro/public_html/Modules/TitanZero/Resources/lang"
+    ],
+    "routes": [
+        "/home/saassmar/domains/titanzero.pro/public_html/Modules/TitanZero/Routes/account.php",
+        "/home/saassmar/domains/titanzero.pro/public_html/Modules/TitanZero/Routes/admin.php",
+        "/home/saassmar/domains/titanzero.pro/public_html/Modules/TitanZero/Routes/api.php",
+        "/home/saassmar/domains/titanzero.pro/public_html/Modules/TitanZero/Routes/web.php"
+    ],
+    "issues": [
+        {
+            "level": "warning",
+            "code": "possible_filament_api_drift",
+            "message": "Possible old Filament API/reference to review: getPages()",
+            "repairable": false,
+            "path": "/home/saassmar/domains/titanzero.pro/public_html/Modules/TitanZero/Filament/Resources/TitanZeroAiCallResource.php"
+        }
+    ],
+    "repairs": [],
+    "manifest": {
+        "name": "TitanZero",
+        "enabled": true,
+        "priority": 10,
+        "providers": [
+            "Modules\\TitanZero\\Providers\\TitanZeroServiceProvider"
+        ],
+        "filament": {
+            "panels": [
+                "*"
+            ],
+            "navigation": true,
+            "resources_path": "Filament/Resources",
+            "pages_path": "Filament/Pages",
+            "widgets_path": "Filament/Widgets"
+        },
+        "health": {
+            "checks": [
+                "provider_exists",
+                "filament_resources_valid",
+                "translations_loaded",
+                "routes_present",
+                "migrations_present"
+            ],
+            "report_path": "Health/reports/latest.json"
+        },
+        "repair": {
+            "recipes_path": "Repair/repair.php",
+            "safe_auto_repair": true
+        }
+    },
+    "health": {
+        "checked_at": "2026-04-29T03:58:42+00:00",
+        "checks_file": null,
+        "repair_file": null,
+        "contracts_file": null,
+        "checks": [],
+        "repair_actions": []
+    },
+    "fingerprint": "00fa844667ce9dc8690c805bf9e759e8c1f0d94b",
+    "healthy": true
+}

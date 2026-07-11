@@ -1,0 +1,39 @@
+{
+  "module": "TitanZero",
+  "version": "1.0.0",
+  "description": "Titan Zero AI Orchestration — the single AI entry point for the platform",
+  "tools": [
+    {
+      "name": "titan_zero_query",
+      "description": "Send a prompt and context to Titan Zero for AI-assisted response",
+      "parameters": {
+        "context": "object",
+        "prompt": "string"
+      }
+    },
+    {
+      "name": "titan_zero_propose_document",
+      "description": "Propose an AI-generated document draft based on context and knowledge pack",
+      "parameters": {
+        "envelope": "object",
+        "tenant_id": "integer"
+      }
+    },
+    {
+      "name": "titan_zero_run_agent",
+      "description": "Run a registered specialist AI agent with a given input payload",
+      "parameters": {
+        "envelope": "object",
+        "tenant_id": "integer"
+      }
+    },
+    {
+      "name": "titan_zero_ingest_signal",
+      "description": "Ingest a platform signal event for AI processing and response",
+      "parameters": {
+        "signal": "object",
+        "tenant_id": "integer"
+      }
+    }
+  ]
+}

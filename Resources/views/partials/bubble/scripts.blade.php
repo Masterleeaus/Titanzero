@@ -1,0 +1,1 @@
+<script src="{{ asset('vendor/titanzero/titanzero.js') }}?v=pass2" defer></script>

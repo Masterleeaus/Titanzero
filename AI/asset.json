@@ -1,0 +1,10 @@
+{
+  "name": "Generic AI Asset",
+  "description": "A generic AI asset for TitanZero.",
+  "version": "1.0.0",
+  "type": "asset",
+  "capabilities": [],
+  "dependencies": [],
+  "permissions": [],
+  "compatibility": "TitanZero V1.9+"
+}

@@ -1,0 +1,10 @@
+{
+  "name": "Generic Tool",
+  "description": "A generic AI tool for TitanZero.",
+  "version": "1.0.0",
+  "type": "tool",
+  "capabilities": [],
+  "dependencies": [],
+  "permissions": [],
+  "compatibility": "TitanZero V1.9+"
+}

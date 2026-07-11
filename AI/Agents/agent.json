@@ -1,0 +1,10 @@
+{
+  "name": "Generic Agent",
+  "description": "A generic AI agent for TitanZero.",
+  "version": "1.0.0",
+  "type": "agent",
+  "capabilities": [],
+  "dependencies": [],
+  "permissions": [],
+  "compatibility": "TitanZero V1.9+"
+}

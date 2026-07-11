@@ -1,0 +1,1 @@
+<div class="tz-result-card"><div class="tz-result-title">{{ $title }}</div><ul class="tz-result-list">@foreach($suggestions as $s)<li>{{ $s['field'] }}: {{ $s['value'] }} @if(!empty($s['reason']))— {{ $s['reason'] }}@endif</li>@endforeach</ul></div>

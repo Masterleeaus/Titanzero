@@ -1,0 +1,10 @@
+{
+  "schema": "titan.citation.v1",
+  "module": "TitanZero",
+  "fields": ["document_id", "title", "chunk_index", "content_hash", "source_url", "module_reference", "excerpt"],
+  "presentation_rules": {
+    "show_in_ui": true,
+    "show_in_api": true,
+    "excerpt_max_length": 200
+  }
+}
